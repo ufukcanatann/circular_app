@@ -1,0 +1,140 @@
+name: circularmindapp
+description: circularmind App.
+publish_to: "none"
+
+version: 1.0.7
+environment:
+  sdk: ">=3.1.3 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  simple_animations: ^5.0.1
+  http: ^1.1.0
+  shared_preferences: ^2.2.1
+  google_maps_flutter:
+  geolocator: ^8.2.0
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+  get_storage:
+  fluttertoast: ^8.2.2
+  url_launcher: ^6.1.14
+  flutter_svg: ^0.22.0
+  autocomplete_textfield: ^2.0.1
+  intl: ^0.17.0
+  flutter_rating_bar: ^4.0.0
+  multi_select_flutter: ^4.1.3
+  dropdown_search: ^3.0.0
+  custom_searchable_dropdown: ^2.1.1
+  animated_custom_dropdown: ^2.0.0
+  dropdown_button2: ^2.3.8
+  notification_center: ^1.0.0
+  flutter_compass: ^0.6.0
+  provider: ^6.1.1
+  flutter_polyline_points: ^2.0.0
+  google_fonts: ^6.1.0
+  webview_flutter: ^2.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  fonts:
+    - family: Antebas
+      fonts:
+        - asset: assets/fonts/antebas/antebas-black.otf
+        - asset: assets/fonts/antebas/antebas-blackitalic.otf
+        - asset: assets/fonts/antebas/antebas-bold.otf
+        - asset: assets/fonts/antebas/antebas-bolditalic.otf
+        - asset: assets/fonts/antebas/antebas-heavy.otf
+        - asset: assets/fonts/antebas/antebas-heavyitalic.otf
+        - asset: assets/fonts/antebas/antebas-light.otf
+        - asset: assets/fonts/antebas/antebas-lightitalic.otf
+        - asset: assets/fonts/antebas/antebas-medium.otf
+        - asset: assets/fonts/antebas/antebas-mediumitalic.otf
+        - asset: assets/fonts/antebas/antebas-regular.otf
+        - asset: assets/fonts/antebas/antebas-regularitalic.otf
+        - asset: assets/fonts/antebas/antebas-thin.otf
+        - asset: assets/fonts/antebas/antebas-thinitalic.otf
+
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/Open_Sans/OpenSans_Condensed-Bold.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_Condensed-BoldItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_Condensed-ExtraBold.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_Condensed-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_Condensed-Italic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_Condensed-Light.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_Condensed-LightItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_Condensed-Medium.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_Condensed-MediumItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_Condensed-Regular.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_Condensed-SemiBold.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_Condensed-SemiBoldItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_SemiCondensed-Bold.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_SemiCondensed-BoldItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_SemiCondensed-ExtraBold.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_SemiCondensed-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_SemiCondensed-Italic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_SemiCondensed-Light.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_SemiCondensed-LightItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_SemiCondensed-Medium.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_SemiCondensed-MediumItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_SemiCondensed-Regular.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_SemiCondensed-SemiBold.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans_SemiCondensed-SemiBoldItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-Bold.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-BoldItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-ExtraBold.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-Italic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-Light.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-LightItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-Medium.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-MediumItalic.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-Regular.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-SemiBold.ttf
+        - asset: assets/fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf
+
+    # - family: Roboto
+    #   fonts:
+    #     - asset: assets/fonts/Roboto
+
+    - family: InriaSans
+      fonts:
+        - asset: assets/fonts/Inria_Sans/InriaSans-Bold.ttf
+        - asset: assets/fonts/Inria_Sans/InriaSans-BoldItalic.ttf
+        - asset: assets/fonts/Inria_Sans/InriaSans-Italic.ttf
+        - asset: assets/fonts/Inria_Sans/InriaSans-Light.ttf
+        - asset: assets/fonts/Inria_Sans/InriaSans-LightItalic.ttf
+        - asset: assets/fonts/Inria_Sans/InriaSans-Regular.ttf
+
+    # - family: Montserrat
+    #   fonts:
+    #     - asset: assets/fonts/Montserrat
+
+    # - family: Poppins
+    #   fonts:
+    #     - asset: assets/fonts/Poppins
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/icons/
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: assets/fonts/Schyler-Regular.ttf
+  #       - asset: assets/fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: assets/fonts/TrajanPro.ttf
+  #       - asset: assets/fonts/TrajanPro_Bold.ttf
+  #         weight: 700
